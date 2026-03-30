@@ -79,6 +79,7 @@
   line-height: 1.4;
   color: var(--color-text);
   margin-bottom: var(--space-4);
+  text-wrap: balance;
 }
 
 .mission-item__text {
@@ -208,6 +209,7 @@
   font-weight: 700;
   color: var(--color-white);
   line-height: 1.4;
+  text-wrap: balance;
 }
 
 .cta-inline__actions {

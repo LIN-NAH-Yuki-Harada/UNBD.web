@@ -11,6 +11,13 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   overflow-x: hidden;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-break: strict;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
 }
 
 /* ---- Container ---- */
@@ -82,6 +89,7 @@ body {
   letter-spacing: -0.01em;
   color: var(--color-text);
   margin-bottom: var(--space-4);
+  text-wrap: balance;
 }
 
 .section-title--white {
