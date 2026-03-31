@@ -105,6 +105,7 @@ h1, h2, h3, h4 {
   color: var(--color-text-sub);
   line-height: 2;
   max-width: 640px;
+  text-wrap: balance;
 }
 
 .section-lead--center {
