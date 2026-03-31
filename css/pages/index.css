@@ -127,6 +127,8 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: var(--color-white);
+  text-wrap: balance;
+  word-break: keep-all;
 }
 
 .hero__heading-line--accent {
